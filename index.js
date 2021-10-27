@@ -44,6 +44,10 @@ document.getElementById("new-post").addEventListener("submit", function (e) {
     .then(post => {
       postsArry.unshift(post)
       renderPosts()
+      document.getElementById("post-title").value = ""
+      document.getElementById("post-body").value = ""
+
+
     })
 
 
