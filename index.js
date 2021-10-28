@@ -51,6 +51,7 @@ document.getElementById("new-post").addEventListener("submit", function (e) {
       bodyInput.value = ""
 
 
+
     })
 
 
